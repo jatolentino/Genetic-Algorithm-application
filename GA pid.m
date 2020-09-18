@@ -1,4 +1,4 @@
-%clear all; close all; clc
+clear all; close all; clc
 syms h1 h2 u
 He=0.52;
 beta1=0.15;
