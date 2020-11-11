@@ -49,7 +49,7 @@ Gs=n(2)/(s + d(2));
 options = optimoptions(@ga,'PopulationSize',PopSize,'MaxGenerations',MaxGenerations,'OutputFcn',@myfun);
 %[x,fval] = ga(@(K)pidtest(Gs,dt,K),3,-eye(3),zeros(3,1),[],[],[],[],[],options);
 [x,fval] = ga(@(K)pidtest(Gs,dt,K),2,-eye(2),zeros(2,1),[],[],[],[],[],options);
-%%
+%% 
 Kpag=x(1)
 Kiag=x(2);
 %Kdag=x(3);
