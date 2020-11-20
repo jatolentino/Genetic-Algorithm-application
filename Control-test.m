@@ -57,7 +57,6 @@ end
 %yz=c2d(mySys_tf,Ts,'zoh')
 %[numdxx,dendxx]=tfdata(yz,'v');
 %[A1,B1,C1,D1]=tf2ss(numdxx,dendxx);
-%%
 %step(feedback(C_pid_fast*mySys_tf,1))
 syms fig1 fig2 fig3 fig4
 figuras={fig1, fig2, fig3, fig4};
