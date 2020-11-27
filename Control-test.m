@@ -110,7 +110,7 @@ for k=1:4
 %     rect = [0.25, 0.25, .25, .25];
 %     set(lgg, 'Position', rect)
 end
-%%
+
 % for k=1:4
 %     Polz=sys_loop(:,:,k) 
 %     [numdz,dendz]=tfdata(Polz,'v')
