@@ -59,6 +59,10 @@ end
 % Gsxx={'Gs1x','Gs2x','Gs3x','Gs4x'};
 % Gpidxx={'Gpid1','Gpid2','Gpid3','Gpid4'};
 
+% res={};
+% Gsxx={'Gs1x','Gs2x','Gs3x'};
+% Gpidxx={'Gpid1','Gpid2','Gpid3'};
+
 % for k=1:1
 %     Fz2=c2d(sys_loop(:,:,k),Ts,'zoh');
 %     [numz2,denz2]=tfdata(Fz2,'v');
