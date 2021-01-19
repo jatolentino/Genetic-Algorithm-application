@@ -1,4 +1,3 @@
-%
 clear all; close all; clc
 syms h1 h2 u
 He=0.52;
