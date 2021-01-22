@@ -55,6 +55,7 @@ for k=1:4
     %[A1,B1,C1,D1]=tf2ss(numdxx,dendxx);
     sys_loop(:,:,k)=feedback(sys_lti(:,:,k)*sys_pid(:,:,k),1);  %TF LAZO CEERRADO
 end
+
 % res={};
 % Gsxx={'Gs1x','Gs2x','Gs3x','Gs4x'};
 % Gpidxx={'Gpid1','Gpid2','Gpid3','Gpid4'};
