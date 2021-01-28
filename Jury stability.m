@@ -31,7 +31,7 @@ for k=1:4
     Dx(k)=double(subs(diff(G,u),{h1 u},{h1opx(k) uopx(k)}));
 end
 
-%% Ecuacion de estados linealizada 
+% Ecuacion de estados linealizada 
 % syms h1d ud
 % htd=[h1d];
 % utd=[ud];
