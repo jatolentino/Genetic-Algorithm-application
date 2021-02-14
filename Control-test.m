@@ -116,4 +116,3 @@ end
 %     [numdz,dendz]=tfdata(Polz,'v')
 %     juryC(dendz)
 % end
-
