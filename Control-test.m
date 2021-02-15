@@ -77,7 +77,7 @@ for k=1:4
      setoptions(figur,pfig);
 %      rect = [0.25, 0.25, .25, .25];
 %      set(h, 'Position', rect)
-%     setoptions(figur,pfig)
+%      setoptions(figur,pfig)
     %hgsave(h,sprintf('fig%d',k))
     %hold on
     grid on
