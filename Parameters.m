@@ -17,6 +17,7 @@ ya1=ya(12:998,1)*0.01;
 datos= [t1 y1];
 datosa=[ta1 ya1];
 %%
+
 syms x
 V1=[];
 V2=[];
