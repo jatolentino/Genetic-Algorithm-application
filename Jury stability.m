@@ -71,7 +71,6 @@ end
 %     vpa(sdz2,9)
 %     juryC(denz2)
 % end
-
 for k=3:3
     %sys_lti(:,:,k); %Gs
     [numgs,dengs]=tfdata(sys_lti(:,:,k),'v');
